@@ -1,6 +1,6 @@
 # sgawser
 
-> **A browser that wants nothing from you.**
+> **An independent browser that wants nothing from you.**
 >
 > In an era that always chases something new, the cloud, AI, nobody ever asked who controls the browser.
 >
@@ -10,7 +10,7 @@
 >
 > Thanks for the engine. sgawser takes care of the rest. Created in Italy.
 
-sgawser is a browser in the making: one person's project, published under the personal site [sga.os](https://sgalliani.com). Android comes first.
+sgawser is an independent browser in the making: one person's project, with no company, investor or advertiser behind it, published under the personal site [sga.os](https://sgalliani.com). Android comes first. Limit: independent describes who runs the project, not what it is built on. The engine is Chromium, which the project does not control.
 
 ## Status
 
