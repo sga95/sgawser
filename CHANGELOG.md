@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Licence chosen by the author: GNU General Public License, version 3 only. `LICENSE` holds the unmodified official text (SHA-256 `3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986`). README updated.
 - First code: `tools/gate.py`, the repository gate. It fails when a tracked file is a binary, has a minified line, carries a name reserved for secrets or local settings, is a symbolic link, or contains an em-dash. Tests in `tests/`, run on every pull request by `.github/workflows/gate.yml` without any third-party action. Described in `docs/gate.md`. The code has no licence yet.
 - Repository created with README, security policy and changelog. No code.
 - Phase 1 draft: `docs/profile/android.md`, the Cromite setup checklist and the ten minute self-check with PCAPdroid. Not yet verified by measurement.
