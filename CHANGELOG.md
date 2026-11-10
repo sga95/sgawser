@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- First code: `tools/gate.py`, the repository gate. It fails when a tracked file is a binary, has a minified line, carries a name reserved for secrets or local settings, is a symbolic link, or contains an em-dash. Tests in `tests/`, run on every pull request by `.github/workflows/gate.yml` without any third-party action. Described in `docs/gate.md`. The code has no licence yet.
 - Repository created with README, security policy and changelog. No code.
 - Phase 1 draft: `docs/profile/android.md`, the Cromite setup checklist and the ten minute self-check with PCAPdroid. Not yet verified by measurement.
 - Principles written in the README: free of charge, nobody earns money from it, reasons stated, open to checking, created in Italy, as little borrowed as possible. Each sentence carries its limit.
