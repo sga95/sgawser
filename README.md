@@ -38,7 +38,7 @@ Every sentence below carries its limit. If one does not, open an issue.
 
 ## License
 
-Not chosen yet. It will be an open source licence compatible with Cromite's GPL version 3. Until it is chosen, nobody has the legal right to reuse what is in this repository.
+GNU General Public License, version 3 only (GPL-3.0-only), the licence Cromite uses. The full text is in [LICENSE](LICENSE). Anyone may use, read, change and share what is in this repository; a changed version that is shared must stay under the same licence, with its source. There is no warranty. Limit: the licence covers what is written in this repository. The engine and Cromite are not in it and keep their own licences.
 
 ## Security
 
