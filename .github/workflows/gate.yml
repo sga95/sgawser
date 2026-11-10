@@ -1,0 +1,21 @@
+name: gate
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions: {}
+jobs:
+  gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      # Plain git instead of a checkout action: the workflow runs no third-party code.
+      - name: Fetch the commit
+        run: |
+          git init -q .
+          git fetch -q --depth=1 "https://github.com/${GITHUB_REPOSITORY}" "${GITHUB_REF}"
+          git checkout -q FETCH_HEAD
+      - name: Test the gate
+        run: python3 -m unittest discover -s tests -v
+      - name: Run the gate
+        run: python3 tools/gate.py
