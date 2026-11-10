@@ -6,7 +6,9 @@ The guiding principle: the simplest secure code, in a public repository from the
 
 ## Status
 
-Early stage. No code yet. This repository only holds the project files as they are created.
+Early stage. No code yet.
+
+Phase 1 is sgawser as a profile: a documented setup of Cromite for Android with a ten minute self-check, no binary. The draft is in [docs/profile/android.md](docs/profile/android.md); it is not verified until the emulator lab measurement of Cromite is done. A build of its own comes only for what a settings checklist cannot reach.
 
 ## License
 
