@@ -1,0 +1,17 @@
+# Claude Code permission and settings files, never committed
+.claude/
+CLAUDE.local.md
+settings.local.json
+
+# Secrets and signing material
+.env
+.env.*
+.dev.vars
+*.keystore
+*.jks
+*.pem
+*.key
+
+# Local tooling
+node_modules/
+.wrangler/
