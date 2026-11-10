@@ -1,5 +1,15 @@
 # sgawser
 
+> **A browser that wants nothing from you.**
+>
+> In an era that always chases something new, the cloud, AI, nobody ever asked who controls the browser.
+>
+> Thanks to the people who built Chromium, Google first among them, and left it open to everyone: it is the engine that opens today's web, and an independent one that does the same does not exist yet.
+>
+> sgawser is being built to take that engine, remove Google's services, and hand the browser back to the person using it. Free of charge, no account, no data collected. Nothing to sell, because nothing is collected. It is meant to show, in plain words, everything it sends, and its code is open so that anyone can check.
+>
+> Thanks for the engine. sgawser takes care of the rest. Created in Italy.
+
 sgawser is a browser in the making: one person's project, published under the personal site [sga.os](https://sgalliani.com). Android comes first.
 
 ## Status
